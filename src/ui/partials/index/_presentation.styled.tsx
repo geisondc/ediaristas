@@ -1,7 +1,7 @@
 import { styled } from "@material-ui/core/styles";
 import { Container } from "@material-ui/core";
 import RoundedButton from "ui/components/inputs/RoundedButton/RoundedButton";
-import Link, { LinkProps } from "ui/components/navigation/link/link";
+import Link, { LinkProps } from "ui/components/navigation/Link/Link";
 
 export const SectionContainer = styled("section")`
   position: relative;

@@ -9,7 +9,7 @@ import {
 } from "@material-ui/core";
 import useIsMobile from "data/hooks/useIsMobile";
 import RoundedButton from "ui/components/inputs/RoundedButton/RoundedButton";
-import Link from "ui/components/navigation/link/link";
+import Link from "ui/components/navigation/Link/Link";
 import {
   HeaderAppBar,
   HeaderLogo,
@@ -41,6 +41,7 @@ const HeaderDesktop = () => {
           >
             Seja um(a) diarista
           </Link>
+
           <Link href="/login" Component={RoundedButton}>
             Login
           </Link>

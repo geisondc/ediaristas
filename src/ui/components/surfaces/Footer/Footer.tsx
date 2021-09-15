@@ -9,7 +9,7 @@ import {
   FooterGrid,
 } from "./Footer.style";
 import { List, Box, Typography, IconButton } from "@material-ui/core";
-import Link from "ui/components/navigation/link/link";
+import Link from "ui/components/navigation/Link/Link";
 
 const Footer = () => {
   return (

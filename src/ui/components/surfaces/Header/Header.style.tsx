@@ -10,14 +10,14 @@ export const HeaderAppBar = styled((props: AppBarProps) => (
     color: ${({ theme }) => theme.palette.text.secondary};
   }
 
-  .MuiToobar-root {
+  .MuiToolbar-root {
     display: grid;
     grid-template-columns: 52px auto 52px;
     justify-content: space-between;
   }
 
   ${({ theme }) => theme.breakpoints.up("md")} {
-    .MuiToobar-root {
+    .MuiToolbar-root {
       grid-template-columns: auto auto 1fr auto;
       gap: ${({ theme }) => theme.spacing(9)};
       height: 100px;

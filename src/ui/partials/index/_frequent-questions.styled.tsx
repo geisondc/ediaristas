@@ -35,7 +35,7 @@ export const AccordionStyled = styled(Accordion)`
     font-weight: bold;
   }
 
-  &.MuiAccondion-root {
+  &.MuiAccordion-root {
     box-shadow: none;
     border: 2px solid ${({ theme }) => theme.palette.primary.main};
 

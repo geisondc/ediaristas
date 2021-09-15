@@ -1,7 +1,7 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import Link from "./link";
+import Link from "./Link";
 import RoundedButton from '../../inputs/RoundedButton/RoundedButton';
 
 export default {
